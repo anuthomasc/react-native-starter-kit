@@ -3,4 +3,4 @@ import {AppRegistry} from 'react-native';
 import App from './App';
 console.disableYellowBox=true;
 console.ignoredYellowBox = ['Remote debugger'];
-AppRegistry.registerComponent('NewsFeed', () => App);
+AppRegistry.registerComponent('ReactNativeStarterKit', () => App);

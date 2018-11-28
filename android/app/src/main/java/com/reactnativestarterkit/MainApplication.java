@@ -1,4 +1,4 @@
-package com.newsfeed;
+package com.reactnativestarterkit;
 
 import android.app.Application;
 

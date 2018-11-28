@@ -1,8 +1,7 @@
-import { StackNavigator, createDrawerNavigator } from "react-navigation";
-import DrawerNavigator from './DrawerNavigator';
-
+import { StackNavigator} from "react-navigation";
+import HomeScreen from '../containers/HomeScreen';
 const AppNavigator = StackNavigator({
-    Home: { screen: DrawerNavigator },
+    Home: { screen: HomeScreen },
 },
     {
         headerMode: 'none',
