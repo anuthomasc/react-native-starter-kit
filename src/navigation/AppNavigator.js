@@ -1,6 +1,6 @@
-import { StackNavigator} from "react-navigation";
+import { StackNavigator, createStackNavigator } from "react-navigation";
 import HomeScreen from '../containers/HomeScreen';
-const AppNavigator = StackNavigator({
+const AppNavigator = createStackNavigator({
     Home: { screen: HomeScreen },
 },
     {
